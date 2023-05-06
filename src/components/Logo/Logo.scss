@@ -1,0 +1,27 @@
+.logo-title {
+  font-family: "Cookie", cursive;
+  line-height: 1;
+  font-size: 2.5em;
+  & span {
+    display: block;
+  }
+  &--color-light {
+    color: #ffd700;
+  }
+  &--color-dark {
+    color: #0057b7;
+  }
+}
+// https://coolors.co/123b79-788bff-9bb1ff-bfd7ff-e2fdff
+.logo-container {
+  display: flex;
+  place-items: center;
+  padding: 15px 60px;
+}
+.logo-icon {
+  width: 60px;
+  height: 60px;
+  transform: rotate(-10deg);
+  color: #123b79;
+  fill: currentColor;
+}
